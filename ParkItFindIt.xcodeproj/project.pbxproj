@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20584F061C7EBF480006CCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20584F051C7EBF480006CCA4 /* AppDelegate.swift */; };
+		20584F081C7EBF480006CCA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20584F071C7EBF480006CCA4 /* ViewController.swift */; };
+		20584F0B1C7EBF480006CCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20584F091C7EBF480006CCA4 /* Main.storyboard */; };
+		20584F0E1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20584F0C1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodeld */; };
+		20584F101C7EBF480006CCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20584F0F1C7EBF480006CCA4 /* Assets.xcassets */; };
+		20584F131C7EBF480006CCA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20584F111C7EBF480006CCA4 /* LaunchScreen.storyboard */; };
+		20584F1E1C7EBF480006CCA4 /* ParkItFindItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20584F1D1C7EBF480006CCA4 /* ParkItFindItTests.swift */; };
+		20584F291C7EBF480006CCA4 /* ParkItFindItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20584F281C7EBF480006CCA4 /* ParkItFindItUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20584F1A1C7EBF480006CCA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20584EFA1C7EBF480006CCA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20584F011C7EBF480006CCA4;
+			remoteInfo = ParkItFindIt;
+		};
+		20584F251C7EBF480006CCA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20584EFA1C7EBF480006CCA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20584F011C7EBF480006CCA4;
+			remoteInfo = ParkItFindIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20584F021C7EBF480006CCA4 /* ParkItFindIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkItFindIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20584F051C7EBF480006CCA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20584F071C7EBF480006CCA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20584F0A1C7EBF480006CCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20584F0D1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParkItFindIt.xcdatamodel; sourceTree = "<group>"; };
+		20584F0F1C7EBF480006CCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20584F121C7EBF480006CCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20584F141C7EBF480006CCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20584F191C7EBF480006CCA4 /* ParkItFindItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkItFindItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20584F1D1C7EBF480006CCA4 /* ParkItFindItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkItFindItTests.swift; sourceTree = "<group>"; };
+		20584F1F1C7EBF480006CCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20584F241C7EBF480006CCA4 /* ParkItFindItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkItFindItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20584F281C7EBF480006CCA4 /* ParkItFindItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkItFindItUITests.swift; sourceTree = "<group>"; };
+		20584F2A1C7EBF480006CCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20584EFF1C7EBF480006CCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20584F161C7EBF480006CCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20584F211C7EBF480006CCA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20584EF91C7EBF480006CCA4 = {
+			isa = PBXGroup;
+			children = (
+				20584F041C7EBF480006CCA4 /* ParkItFindIt */,
+				20584F1C1C7EBF480006CCA4 /* ParkItFindItTests */,
+				20584F271C7EBF480006CCA4 /* ParkItFindItUITests */,
+				20584F031C7EBF480006CCA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20584F031C7EBF480006CCA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20584F021C7EBF480006CCA4 /* ParkItFindIt.app */,
+				20584F191C7EBF480006CCA4 /* ParkItFindItTests.xctest */,
+				20584F241C7EBF480006CCA4 /* ParkItFindItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20584F041C7EBF480006CCA4 /* ParkItFindIt */ = {
+			isa = PBXGroup;
+			children = (
+				20584F051C7EBF480006CCA4 /* AppDelegate.swift */,
+				20584F071C7EBF480006CCA4 /* ViewController.swift */,
+				20584F091C7EBF480006CCA4 /* Main.storyboard */,
+				20584F0F1C7EBF480006CCA4 /* Assets.xcassets */,
+				20584F111C7EBF480006CCA4 /* LaunchScreen.storyboard */,
+				20584F141C7EBF480006CCA4 /* Info.plist */,
+				20584F0C1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodeld */,
+			);
+			path = ParkItFindIt;
+			sourceTree = "<group>";
+		};
+		20584F1C1C7EBF480006CCA4 /* ParkItFindItTests */ = {
+			isa = PBXGroup;
+			children = (
+				20584F1D1C7EBF480006CCA4 /* ParkItFindItTests.swift */,
+				20584F1F1C7EBF480006CCA4 /* Info.plist */,
+			);
+			path = ParkItFindItTests;
+			sourceTree = "<group>";
+		};
+		20584F271C7EBF480006CCA4 /* ParkItFindItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20584F281C7EBF480006CCA4 /* ParkItFindItUITests.swift */,
+				20584F2A1C7EBF480006CCA4 /* Info.plist */,
+			);
+			path = ParkItFindItUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20584F011C7EBF480006CCA4 /* ParkItFindIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20584F2D1C7EBF480006CCA4 /* Build configuration list for PBXNativeTarget "ParkItFindIt" */;
+			buildPhases = (
+				20584EFE1C7EBF480006CCA4 /* Sources */,
+				20584EFF1C7EBF480006CCA4 /* Frameworks */,
+				20584F001C7EBF480006CCA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkItFindIt;
+			productName = ParkItFindIt;
+			productReference = 20584F021C7EBF480006CCA4 /* ParkItFindIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20584F181C7EBF480006CCA4 /* ParkItFindItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20584F301C7EBF480006CCA4 /* Build configuration list for PBXNativeTarget "ParkItFindItTests" */;
+			buildPhases = (
+				20584F151C7EBF480006CCA4 /* Sources */,
+				20584F161C7EBF480006CCA4 /* Frameworks */,
+				20584F171C7EBF480006CCA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20584F1B1C7EBF480006CCA4 /* PBXTargetDependency */,
+			);
+			name = ParkItFindItTests;
+			productName = ParkItFindItTests;
+			productReference = 20584F191C7EBF480006CCA4 /* ParkItFindItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20584F231C7EBF480006CCA4 /* ParkItFindItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20584F331C7EBF480006CCA4 /* Build configuration list for PBXNativeTarget "ParkItFindItUITests" */;
+			buildPhases = (
+				20584F201C7EBF480006CCA4 /* Sources */,
+				20584F211C7EBF480006CCA4 /* Frameworks */,
+				20584F221C7EBF480006CCA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20584F261C7EBF480006CCA4 /* PBXTargetDependency */,
+			);
+			name = ParkItFindItUITests;
+			productName = ParkItFindItUITests;
+			productReference = 20584F241C7EBF480006CCA4 /* ParkItFindItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20584EFA1C7EBF480006CCA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ObjSpace;
+				TargetAttributes = {
+					20584F011C7EBF480006CCA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 48A54G2NCL;
+					};
+					20584F181C7EBF480006CCA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 48A54G2NCL;
+						TestTargetID = 20584F011C7EBF480006CCA4;
+					};
+					20584F231C7EBF480006CCA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 48A54G2NCL;
+						TestTargetID = 20584F011C7EBF480006CCA4;
+					};
+				};
+			};
+			buildConfigurationList = 20584EFD1C7EBF480006CCA4 /* Build configuration list for PBXProject "ParkItFindIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20584EF91C7EBF480006CCA4;
+			productRefGroup = 20584F031C7EBF480006CCA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20584F011C7EBF480006CCA4 /* ParkItFindIt */,
+				20584F181C7EBF480006CCA4 /* ParkItFindItTests */,
+				20584F231C7EBF480006CCA4 /* ParkItFindItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20584F001C7EBF480006CCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20584F131C7EBF480006CCA4 /* LaunchScreen.storyboard in Resources */,
+				20584F101C7EBF480006CCA4 /* Assets.xcassets in Resources */,
+				20584F0B1C7EBF480006CCA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20584F171C7EBF480006CCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20584F221C7EBF480006CCA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20584EFE1C7EBF480006CCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20584F0E1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodeld in Sources */,
+				20584F081C7EBF480006CCA4 /* ViewController.swift in Sources */,
+				20584F061C7EBF480006CCA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20584F151C7EBF480006CCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20584F1E1C7EBF480006CCA4 /* ParkItFindItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20584F201C7EBF480006CCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20584F291C7EBF480006CCA4 /* ParkItFindItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20584F1B1C7EBF480006CCA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20584F011C7EBF480006CCA4 /* ParkItFindIt */;
+			targetProxy = 20584F1A1C7EBF480006CCA4 /* PBXContainerItemProxy */;
+		};
+		20584F261C7EBF480006CCA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20584F011C7EBF480006CCA4 /* ParkItFindIt */;
+			targetProxy = 20584F251C7EBF480006CCA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20584F091C7EBF480006CCA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20584F0A1C7EBF480006CCA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20584F111C7EBF480006CCA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20584F121C7EBF480006CCA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20584F2B1C7EBF480006CCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20584F2C1C7EBF480006CCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20584F2E1C7EBF480006CCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParkItFindIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.objspace.ParkItFindIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20584F2F1C7EBF480006CCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParkItFindIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.objspace.ParkItFindIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20584F311C7EBF480006CCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParkItFindItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.objspace.ParkItFindItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkItFindIt.app/ParkItFindIt";
+			};
+			name = Debug;
+		};
+		20584F321C7EBF480006CCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParkItFindItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.objspace.ParkItFindItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkItFindIt.app/ParkItFindIt";
+			};
+			name = Release;
+		};
+		20584F341C7EBF480006CCA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParkItFindItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.objspace.ParkItFindItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParkItFindIt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		20584F351C7EBF480006CCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParkItFindItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.objspace.ParkItFindItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParkItFindIt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20584EFD1C7EBF480006CCA4 /* Build configuration list for PBXProject "ParkItFindIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20584F2B1C7EBF480006CCA4 /* Debug */,
+				20584F2C1C7EBF480006CCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20584F2D1C7EBF480006CCA4 /* Build configuration list for PBXNativeTarget "ParkItFindIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20584F2E1C7EBF480006CCA4 /* Debug */,
+				20584F2F1C7EBF480006CCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20584F301C7EBF480006CCA4 /* Build configuration list for PBXNativeTarget "ParkItFindItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20584F311C7EBF480006CCA4 /* Debug */,
+				20584F321C7EBF480006CCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20584F331C7EBF480006CCA4 /* Build configuration list for PBXNativeTarget "ParkItFindItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20584F341C7EBF480006CCA4 /* Debug */,
+				20584F351C7EBF480006CCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20584F0C1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20584F0D1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodel */,
+			);
+			currentVersion = 20584F0D1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodel */;
+			path = ParkItFindIt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20584EFA1C7EBF480006CCA4 /* Project object */;
+}
