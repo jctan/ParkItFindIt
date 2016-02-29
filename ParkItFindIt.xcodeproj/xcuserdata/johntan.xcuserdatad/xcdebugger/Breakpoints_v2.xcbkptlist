@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ParkItFindIt/ViewController.swift"
+            timestampString = "478398049.363246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "checkForSavedParkingSpot()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ParkItFindIt/ViewController.swift"
+            timestampString = "478397817.897597"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkItFindIt.ViewController.meterTimeEntered.getter : Swift.Int"
+                  moduleName = "ParkItFindIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johntan/Desktop/ParkItFindIt/ParkItFindIt/ParkItFindIt/ViewController.swift"
+                  timestampString = "478393957.691103"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkItFindIt.ViewController.meterTimeEntered.setter : Swift.Int"
+                  moduleName = "ParkItFindIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johntan/Desktop/ParkItFindIt/ParkItFindIt/ParkItFindIt/ViewController.swift"
+                  timestampString = "478393957.692512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkItFindIt.ViewController.meterTimeEntered.materializeForSet : Swift.Int"
+                  moduleName = "ParkItFindIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johntan/Desktop/ParkItFindIt/ParkItFindIt/ParkItFindIt/ViewController.swift"
+                  timestampString = "478393957.69287"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkItFindIt.ViewController.init (ParkItFindIt.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; ParkItFindIt.ViewController"
+                  moduleName = "ParkItFindIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johntan/Desktop/ParkItFindIt/ParkItFindIt/ParkItFindIt/ViewController.swift"
+                  timestampString = "478393957.693307"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "699">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ParkItFindIt.ViewController.init (ParkItFindIt.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ParkItFindIt.ViewController&gt;"
+                  moduleName = "ParkItFindIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johntan/Desktop/ParkItFindIt/ParkItFindIt/ParkItFindIt/ViewController.swift"
+                  timestampString = "478393957.694251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "574">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

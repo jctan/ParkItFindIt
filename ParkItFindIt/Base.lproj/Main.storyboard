@@ -1,25 +1,145 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rX7-YP-WPf">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="Ynh-U2-FnB">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rX7-YP-WPf" customClass="ViewController" customModule="ParkItFindIt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="RZd-og-Zgz"/>
+                        <viewControllerLayoutGuide type="bottom" id="hUE-xB-Nxs"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="mkk-9X-xZu" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BpD-wS-Nvj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="qrV-SE-F1u"/>
+                                </constraints>
+                                <color key="barTintColor" red="0.13725490200000001" green="0.58039215690000001" blue="0.43137254899999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Park It Find It" id="xtz-l6-fpd"/>
+                                </items>
+                            </navigationBar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pn9-PC-tAf">
+                                <rect key="frame" x="0.0" y="64" width="320" height="398"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="398" id="Ngh-9x-cZL"/>
+                                    <constraint firstAttribute="width" constant="320" id="vf2-s6-9kS"/>
+                                </constraints>
+                            </mapView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rE4-Dk-mm7">
+                                <rect key="frame" x="223" y="470" width="97" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="5K0-MO-qQn"/>
+                                    <constraint firstAttribute="height" constant="98" id="JtQ-ic-Vox"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="BlueBtn"/>
+                                <connections>
+                                    <action selector="openAppleMaps:" destination="rX7-YP-WPf" eventType="touchUpInside" id="LjL-nS-4Hm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKz-06-XBG">
+                                <rect key="frame" x="112" y="470" width="97" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="2mR-eN-VuI"/>
+                                    <constraint firstAttribute="width" constant="97" id="R6R-sH-8MU"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="RedBtn"/>
+                                <connections>
+                                    <action selector="parkItButtonPressed:" destination="rX7-YP-WPf" eventType="touchUpInside" id="fzR-oA-oft"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgQ-Na-A11">
+                                <rect key="frame" x="0.0" y="470" width="97" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="BRe-TB-BBq"/>
+                                    <constraint firstAttribute="width" constant="97" id="uDW-er-3uS"/>
+                                </constraints>
+                                <state key="normal" title="Unpark Button" image="Unpark"/>
+                                <connections>
+                                    <action selector="unparkButtonPressed:" destination="rX7-YP-WPf" eventType="touchUpInside" id="6ff-4b-FBs"/>
+                                </connections>
+                            </button>
+                            <textField hidden="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Number of Minutes" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pu8-gG-ex6">
+                                <rect key="frame" x="71" y="269" width="178" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TVi-Te-btD"/>
+                                    <constraint firstAttribute="width" constant="178" id="U1A-ov-HRc"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69N-3a-J52">
+                                <rect key="frame" x="112" y="497" width="97" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="PCx-16-Y2g"/>
+                                    <constraint firstAttribute="width" constant="97" id="lY7-5s-2Bz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="69N-3a-J52" firstAttribute="centerY" secondItem="cgQ-Na-A11" secondAttribute="centerY" id="3Hm-TA-Lr8"/>
+                            <constraint firstAttribute="trailing" secondItem="BpD-wS-Nvj" secondAttribute="trailing" id="3Kz-9Q-WLN"/>
+                            <constraint firstItem="Pu8-gG-ex6" firstAttribute="centerX" secondItem="Pn9-PC-tAf" secondAttribute="centerX" id="3NS-Kj-whx"/>
+                            <constraint firstItem="Pu8-gG-ex6" firstAttribute="centerY" secondItem="Pn9-PC-tAf" secondAttribute="centerY" constant="21" id="4KP-O7-b5a"/>
+                            <constraint firstItem="69N-3a-J52" firstAttribute="centerX" secondItem="Pn9-PC-tAf" secondAttribute="centerX" id="7pT-wd-doq"/>
+                            <constraint firstItem="cgQ-Na-A11" firstAttribute="leading" secondItem="mkk-9X-xZu" secondAttribute="leading" id="8hd-ee-GAq"/>
+                            <constraint firstItem="69N-3a-J52" firstAttribute="centerX" secondItem="Pu8-gG-ex6" secondAttribute="centerX" id="FQf-G3-Gfd"/>
+                            <constraint firstItem="Pn9-PC-tAf" firstAttribute="top" secondItem="BpD-wS-Nvj" secondAttribute="bottom" id="IqH-sH-TTR"/>
+                            <constraint firstAttribute="trailing" secondItem="rE4-Dk-mm7" secondAttribute="trailing" id="RmF-I9-L1F"/>
+                            <constraint firstItem="BpD-wS-Nvj" firstAttribute="top" secondItem="mkk-9X-xZu" secondAttribute="top" id="SXL-Na-rOr"/>
+                            <constraint firstItem="cgQ-Na-A11" firstAttribute="top" secondItem="Pn9-PC-tAf" secondAttribute="bottom" constant="8" id="Scy-7f-BHK"/>
+                            <constraint firstItem="hUE-xB-Nxs" firstAttribute="top" secondItem="CKz-06-XBG" secondAttribute="bottom" id="UCn-Ym-h1s"/>
+                            <constraint firstItem="hUE-xB-Nxs" firstAttribute="top" secondItem="rE4-Dk-mm7" secondAttribute="bottom" id="b3a-0I-T4V"/>
+                            <constraint firstItem="69N-3a-J52" firstAttribute="centerY" secondItem="rE4-Dk-mm7" secondAttribute="centerY" id="cqu-i1-m0T"/>
+                            <constraint firstItem="69N-3a-J52" firstAttribute="centerY" secondItem="rE4-Dk-mm7" secondAttribute="centerY" id="emk-7k-wZh"/>
+                            <constraint firstItem="CKz-06-XBG" firstAttribute="top" secondItem="Pn9-PC-tAf" secondAttribute="bottom" constant="8" id="f1g-YE-dBm"/>
+                            <constraint firstItem="CKz-06-XBG" firstAttribute="centerX" secondItem="Pn9-PC-tAf" secondAttribute="centerX" id="fkF-dj-RQ4"/>
+                            <constraint firstItem="rE4-Dk-mm7" firstAttribute="top" secondItem="Pn9-PC-tAf" secondAttribute="bottom" constant="8" id="gHD-Nj-ZHG"/>
+                            <constraint firstItem="CKz-06-XBG" firstAttribute="centerY" secondItem="rE4-Dk-mm7" secondAttribute="centerY" id="hoX-mM-ffR"/>
+                            <constraint firstItem="BpD-wS-Nvj" firstAttribute="leading" secondItem="mkk-9X-xZu" secondAttribute="leading" id="jZH-hv-srM"/>
+                            <constraint firstItem="hUE-xB-Nxs" firstAttribute="top" secondItem="cgQ-Na-A11" secondAttribute="bottom" id="kLl-pC-iVq"/>
+                            <constraint firstItem="CKz-06-XBG" firstAttribute="centerY" secondItem="cgQ-Na-A11" secondAttribute="centerY" id="lWc-lg-ITf"/>
+                            <constraint firstAttribute="trailing" secondItem="Pn9-PC-tAf" secondAttribute="trailing" id="mpk-SS-7Zs"/>
+                            <constraint firstItem="Pn9-PC-tAf" firstAttribute="leading" secondItem="mkk-9X-xZu" secondAttribute="leading" id="qdt-hI-NxY"/>
+                            <constraint firstItem="69N-3a-J52" firstAttribute="centerX" secondItem="mkk-9X-xZu" secondAttribute="centerX" id="rDC-vv-Xao"/>
+                        </constraints>
+                        <connections>
+                            <action selector="backgroundTap:" destination="rX7-YP-WPf" eventType="touchDown" id="6eq-yM-uvG"/>
+                        </connections>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="UnparkButton" destination="cgQ-Na-A11" id="j1k-T7-t5W"/>
+                        <outlet property="findItButton" destination="rE4-Dk-mm7" id="R7x-8c-RcD"/>
+                        <outlet property="mapView" destination="Pn9-PC-tAf" id="oPA-zh-6Sm"/>
+                        <outlet property="meterTimeTextField" destination="Pu8-gG-ex6" id="mY8-vd-dPu"/>
+                        <outlet property="parkItButton" destination="CKz-06-XBG" id="nAR-l2-3O2"/>
+                        <outlet property="timerDisplay" destination="69N-3a-J52" id="P14-Pe-9fy"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4hI-1h-GOT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="193" y="345"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BlueBtn" width="170" height="165"/>
+        <image name="RedBtn" width="170" height="165"/>
+        <image name="Unpark" width="170" height="165"/>
+    </resources>
 </document>

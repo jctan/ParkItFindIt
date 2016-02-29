@@ -10,7 +10,6 @@
 		20584F061C7EBF480006CCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20584F051C7EBF480006CCA4 /* AppDelegate.swift */; };
 		20584F081C7EBF480006CCA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20584F071C7EBF480006CCA4 /* ViewController.swift */; };
 		20584F0B1C7EBF480006CCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20584F091C7EBF480006CCA4 /* Main.storyboard */; };
-		20584F0E1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20584F0C1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodeld */; };
 		20584F101C7EBF480006CCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20584F0F1C7EBF480006CCA4 /* Assets.xcassets */; };
 		20584F131C7EBF480006CCA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20584F111C7EBF480006CCA4 /* LaunchScreen.storyboard */; };
 		20584F1E1C7EBF480006CCA4 /* ParkItFindItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20584F1D1C7EBF480006CCA4 /* ParkItFindItTests.swift */; };
@@ -39,7 +38,6 @@
 		20584F051C7EBF480006CCA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20584F071C7EBF480006CCA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20584F0A1C7EBF480006CCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		20584F0D1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParkItFindIt.xcdatamodel; sourceTree = "<group>"; };
 		20584F0F1C7EBF480006CCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20584F121C7EBF480006CCA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20584F141C7EBF480006CCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				20584F0F1C7EBF480006CCA4 /* Assets.xcassets */,
 				20584F111C7EBF480006CCA4 /* LaunchScreen.storyboard */,
 				20584F141C7EBF480006CCA4 /* Info.plist */,
-				20584F0C1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodeld */,
 			);
 			path = ParkItFindIt;
 			sourceTree = "<group>";
@@ -190,6 +187,9 @@
 		20584EFA1C7EBF480006CCA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ObjSpace;
@@ -262,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20584F0E1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodeld in Sources */,
 				20584F081C7EBF480006CCA4 /* ViewController.swift in Sources */,
 				20584F061C7EBF480006CCA4 /* AppDelegate.swift in Sources */,
 			);
@@ -355,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -393,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -404,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ParkItFindIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.objspace.ParkItFindIt;
@@ -415,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ParkItFindIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.objspace.ParkItFindIt;
@@ -489,6 +490,7 @@
 				20584F2F1C7EBF480006CCA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20584F301C7EBF480006CCA4 /* Build configuration list for PBXNativeTarget "ParkItFindItTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +499,7 @@
 				20584F321C7EBF480006CCA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20584F331C7EBF480006CCA4 /* Build configuration list for PBXNativeTarget "ParkItFindItUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,21 +508,9 @@
 				20584F351C7EBF480006CCA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		20584F0C1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				20584F0D1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodel */,
-			);
-			currentVersion = 20584F0D1C7EBF480006CCA4 /* ParkItFindIt.xcdatamodel */;
-			path = ParkItFindIt.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 20584EFA1C7EBF480006CCA4 /* Project object */;
 }

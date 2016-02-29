@@ -1,13 +1,13 @@
 //
 //  AppDelegate.swift
 //  ParkItFindIt
-//
+///Users/johntan/Desktop/ParkItFindIt/ParkItFindIt/ParkItFindIt/Base.lproj/Main.storyboard
 //  Created by JOHN TAN on 2/24/16.
 //  Copyright © 2016 ObjSpace. All rights reserved.
 //
 
 import UIKit
-import CoreData
+//import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -41,11 +41,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
-        self.saveContext()
+        //self.saveContext()
     }
 
     // MARK: - Core Data stack
-
+    
+    /*
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "io.objspace.ParkItFindIt" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
@@ -106,6 +107,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+*/
 
 }
 
